@@ -149,22 +149,29 @@ p {
     text-align: center;
     gap: 15px;
 }
-h4{
+.phrase{
     display: flex;
     font-weight: bolder;
     font-size: 20px;
     margin-bottom: 30px;
+    margin-left: auto;
 }
 .last-part {
-    display: flex;
     background-color: #3882f6;
     color: white;
     margin: 40px;
-    padding: 50px 80px;
-    border-radius: 8px;
+    padding: 50px 80px; 
+    display: flex; 
+     
 }
 .sign-up{
     color: #E5E7EB;
+     border:10px 15px;
+     border-radius: 8px;
     border-color: #e5e7ebea;
 
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
