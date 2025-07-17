@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: ;
+   
     
 }
 ul{
@@ -93,6 +93,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 50px;
 }
 .random {
     font-size: 24px;
@@ -121,5 +122,15 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+}
+.quote {
+     background-color: #E5E7EB ;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-body {
+    display: flex;
 }
 
