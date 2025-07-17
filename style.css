@@ -5,11 +5,7 @@
     box-sizing: border-box;
 
 }
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: ;
-}
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -17,11 +13,14 @@ body{
     padding: 10px;
     flex-direction: column;
     margin: 0;
+    padding: 5px 70px;
+    
 }
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: ;
     
 }
 ul{
@@ -66,6 +65,7 @@ button{
      padding: 10px 20px;
      text-decoration: none;
      border-radius: 8px;
+     margin-top: 10px;
 }
 .image-holder {
     background-color: rgb(155, 152, 152);
@@ -78,20 +78,48 @@ button{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 50px;
     
 }
 .info{
     background-color: white ;
     color: black;
     display: flex;
-    
-    
+    justify-content: center;
+    align-items: center;
 }
 .info-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
+}
+.random {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+    background-color: white;
+    text-align: center;
+    display: flex block;
+    padding: 36px;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    border: 2px solid #3882f6 ;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+}
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
